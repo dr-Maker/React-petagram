@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "vercel-build": " npm run build",
     "lint": "standard --fix",
-    "build": "webpack",
+    "build": "webpack --mode production",
     "dev": "webpack-dev-server --mode development"
   },
   "keywords": [],
